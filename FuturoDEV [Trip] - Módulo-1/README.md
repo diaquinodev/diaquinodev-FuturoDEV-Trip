@@ -1,80 +1,61 @@
-Semana-04
-Exercícios-02
-Crie uma função nomeada que recebe um número e devolva uma string dizendo se é par ou ímpar.
 
-Exercícios-03
-Crie uma arrow function que recebe um array de números e calcula a média deles.
+  <h1>Semana-04</h1>
 
-OBS: para pegar o tamanho de um array use nomeDoArray.length
+  <h2>Exercício-01</h2>
+  <p>Criar uma lista com 3 frutas e exibir no console a segunda fruta do array.</p>
 
-Exercícios-04
-Implemente uma função chamada adicao que aceita dois números como argumentos e uma função anônima. Esta função deve simular uma operação de adição, onde os dois números são somados. Após a soma, chame a função passada como parâmetro e o resultado deve ser passado para a função anônima.
+  <h2>Exercício-02</h2>
+  <p>Adicionar frutas ao array anterior e remover o primeiro item do array.</p>
 
-OBS: a função anônima apenas irá imprimir o resultado passado pelo parâmetro.
+  <h2>Exercício-03</h2>
+  <p>Criar um array com 5 números e utilizar o loop for para imprimir no console.</p>
 
-Exercícios-05
-Utilizando um while, repita uma mini entrevista com 4 usuários perguntando qual a nota para avaliação da série "Stranger Things”, será apenas aceita três tipos de avaliação: ruim, bom e excelente. Depois verifique quantas pessoas classificaram a série como ruim.
+  <h2>Exercício-04</h2>
+  <p>Calcular e imprimir números de um array, utilizando a função <code>.reduce()</code>.</p>
 
-Exercícios-06
-Utilizando estrutura de repetição for realize a tabuada do número 5 e exiba no console da seguinte forma:
+  <h2>Exercício-05</h2>
+  <p>Imprimir a lista de números em ordem crescente.</p>
 
-5 x 0 = 0
+  <h2>Exercício-06</h2>
+  <p>Imprimir apenas números pares da array, utilizando o método <code>filter()</code>.</p>
 
-5 x 1 = 5
+  <h2>Exercício-07</h2>
+  <p>Imprimir o quadrado dos números do array.</p>
 
-5 x 2 = 10
+  <h1>Semana-05</h1>
+<h2>Exercício-01</h2>
+<p>Crie um array chamado frutas contendo três frutas diferentes. Em seguida, imprima no console a segunda fruta do array.
 
-....
+Desafio: utilize a biblioteca prompt-sync para receber cada uma das 3 frutas.</p>
 
-5 x 10 = 50
+<h2>Exercício-02</h2>
+<p>Usando o mesmo array do exercício anterior, adicione mais uma fruta ao array frutas. Em seguida, remova a primeira fruta do array. Imprima o array atualizado no console.</p>
 
-Exercícios-07
-Você foi contratado por um supermercado para catalogar a compra de uma cliente. Assim que a aplicação começa deverá ser perguntado em um prompt qual produto o cliente deseja comprar, só serão aceitas as seguintes respostas:
+<h2>Exercício-03</h2>
+<p>Crie um array chamado numeros contendo cinco números inteiros. Utilize um loop for para imprimir cada número do array no console.
 
-(1)Hortifruti
+Desafio: utilize a biblioteca prompt-sync para receber cada um dos 5 números.</p>
 
-(2)Laticínios
+<h2>Exercício-04</h2>
+<p>Utilizando o array numeros do exercício anterior, calcule e imprima a soma de todos os elementos do array. Utilize o reduce para realizar a soma.</p>
 
-(3)Carnes
+<h2>Exercício-05</h2>
+<p>Crie um novo array chamado numerosOrdenados contendo os mesmos números do array numeros. Em seguida, ordene esse novo array em ordem crescente e imprima-o no console.</p>
 
-(4)Peixes
+<h2>Exercício-06</h2>
+<p>Crie um array chamado pares que contenha apenas os números pares do array numeros criado nos exercícios anteriores. Em seguida, imprima esse novo array no console. Utilize o método filter para realizar a operação de filtragem.</p>
 
-(5)Aves
-
-(6)Fechar pedido
-
-Após fazer a seleção do produto pergunte a quantidade de itens que o cliente irá comprar.
-
-Apenas se o cliente selecionar a opção 6 é que a pergunta deverá parar de ser repetida.
-
-Ao selecionar a opção 6 imprima o produto que o cliente pegou em maior quantidade.
+<h2>Exercício-07</h2>
+<p>Utilizando o array numeros utilizado nos exercícios anteriores, crie um novo array chamado quadrados que contenha o quadrado de cada número do array numeros. Imprima o array quadrados no console. Use o método map para realizar a criação de um novo array.</p>
 
 
-Semana-05
-Exercício-01
-Criar uma lista com 3 frutas e exibir no console a segunda fruta do array.
+  <h1>Semana-06</h1>
 
-Exercícios-02
-Adicionar frutas ao array anterior e remover o primeiro item do array.
+  <h2>Exercício-01</h2>
+  <p>A função <code>verificarParOuImpar</code> recebe um número como parâmetro. Dentro da Promise, verifica-se se o valor passado é de fato um número. Se não for um número válido, a Promise é rejeitada com uma mensagem de erro. Se o número for válido, verifica-se se é par ou ímpar e resolve-se a Promise com a mensagem correspondente. O exemplo de uso solicita ao usuário que insira um número e, em seguida, chama a função <code>verificarParOuImpar</code> passando o número digitado. O resultado é então tratado com <code>.then()</code> para lidar com o caso de sucesso e <code>.catch()</code> para lidar com erros.</p>
 
-Exercício-03
-Criar um array com 5 números, usar o loop for para imprimir no console.
+  <h2>Exercício-02</h2>
+  <p>A função <code>getUserInfo</code> retorna uma Promise que é resolvida após um atraso de 2 segundos. Ela retorna um objeto com informações fictícias de um usuário. Utiliza-se <code>async</code> e <code>await</code> para tornar a chamada assíncrona mais legível e fácil de entender. A função <code>obterDadosDoUsuario</code> chama <code>getUserInfo</code> usando <code>await</code> para esperar que a Promise seja resolvida. Utiliza-se um bloco <code>try/catch</code> para lidar com possíveis erros durante a obtenção das informações do usuário. A função <code>isValidEmail</code> utiliza uma expressão regular para validar se o formato do e-mail é válido. Se o e-mail fornecido pelo usuário não corresponder ao formato esperado, a função <code>getUserInfo</code> rejeitará a Promise com uma mensagem de erro.</p>
 
-Exercício-04
-Calcular e imprimir números de um array, utilizando .reduce.
-
-Exercício-05
-Imprimir a lista de números em ordem crescente.
-
-Exercício-06
-Imprimir apenas números pares da array, utilizando filter().
-
-Exercício-07
-Imprimir o quadrado dos números do array.
-
-Semana-06
-Exercício-01
-A função verificarParOuImpar recebe um número como parâmetro. Dentro da Promise, verifica-se se o valor passado é de fato um número. Se não for um número válido, a Promise é rejeitada com uma mensagem de erro. Se o número for válido, verifica-se se é par ou ímpar e resolve-se a Promise com a mensagem correspondente. O exemplo de uso solicita ao usuário que insira um número e, em seguida, chama a função verificarParOuImpar passando o número digitado. O resultado é então tratado com .then() para lidar com o caso de sucesso e .catch() para lidar com erros.
-
-Exercício-02
-A função getUserInfo retorna uma Promise que é resolvida após um atraso de 2 segundos. Ela retorna um objeto com informações fictícias de um usuário. Utiliza-se async e await para tornar a chamada assíncrona mais legível e fácil de entender. A função obterDadosDoUsuario chama getUserInfo usando await para esperar que a Promise seja resolvida. Utiliza-se um bloco try/catch para lidar com possíveis erros durante a obtenção das informações do usuário. A função isValidEmail utiliza uma expressão regular para validar se o formato do e-mail é válido. Se o e-mail fornecido pelo usuário não corresponder ao formato esperado, a função getUserInfo rejeitará a Promise com uma mensagem de erro.
+</body>
+</html>
