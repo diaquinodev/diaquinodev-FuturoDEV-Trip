@@ -1,3 +1,55 @@
+Semana-04
+Exercícios-02
+Crie uma função nomeada que recebe um número e devolva uma string dizendo se é par ou ímpar.
+
+Exercícios-03
+Crie uma arrow function que recebe um array de números e calcula a média deles.
+
+OBS: para pegar o tamanho de um array use nomeDoArray.length
+
+Exercícios-04
+Implemente uma função chamada adicao que aceita dois números como argumentos e uma função anônima. Esta função deve simular uma operação de adição, onde os dois números são somados. Após a soma, chame a função passada como parâmetro e o resultado deve ser passado para a função anônima.
+
+OBS: a função anônima apenas irá imprimir o resultado passado pelo parâmetro.
+
+Exercícios-05
+Utilizando um while, repita uma mini entrevista com 4 usuários perguntando qual a nota para avaliação da série "Stranger Things”, será apenas aceita três tipos de avaliação: ruim, bom e excelente. Depois verifique quantas pessoas classificaram a série como ruim.
+
+Exercícios-06
+Utilizando estrutura de repetição for realize a tabuada do número 5 e exiba no console da seguinte forma:
+
+5 x 0 = 0
+
+5 x 1 = 5
+
+5 x 2 = 10
+
+....
+
+5 x 10 = 50
+
+Exercícios-07
+Você foi contratado por um supermercado para catalogar a compra de uma cliente. Assim que a aplicação começa deverá ser perguntado em um prompt qual produto o cliente deseja comprar, só serão aceitas as seguintes respostas:
+
+(1)Hortifruti
+
+(2)Laticínios
+
+(3)Carnes
+
+(4)Peixes
+
+(5)Aves
+
+(6)Fechar pedido
+
+Após fazer a seleção do produto pergunte a quantidade de itens que o cliente irá comprar.
+
+Apenas se o cliente selecionar a opção 6 é que a pergunta deverá parar de ser repetida.
+
+Ao selecionar a opção 6 imprima o produto que o cliente pegou em maior quantidade.
+
+
 Semana-05
 Exercício-01
 Criar uma lista com 3 frutas e exibir no console a segunda fruta do array.
