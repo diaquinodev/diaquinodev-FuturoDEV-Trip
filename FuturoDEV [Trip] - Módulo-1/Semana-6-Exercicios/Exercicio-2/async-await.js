@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")();
 
 function isValidEmail(email) {
-    // Expressão regular para validar o formato do e-mail
+  
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
 }
@@ -19,7 +19,7 @@ function getUserInfo() {
             } else {
                 reject(new Error('Por favor, insira todos os dados do usuário. '));
             }
-        }, 2000); // Simula um tempo de espera de 2 segundos
+        }, 2000); 
     });
 }
 
@@ -32,6 +32,6 @@ async function obterDadosDoUsuario() {
     }
 }
 
-// Chamar a função obterDadosDoUsuario para usar o async/await
+
 obterDadosDoUsuario();
 
